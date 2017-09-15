@@ -23,6 +23,17 @@ html {
 	font-family: notcouriersans, monospace;
 }
 
+.aiguille,
+.ombre {
+  height: 15vh;
+  width: 5vh;
+  background-color: #666;
+  display: block;
+}
+
+.ombre {
+  transform: skewX(-25deg);
+}
 
 /*
  * Définition du modèle de boîte
@@ -35,4 +46,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
