@@ -10,22 +10,31 @@
     </head>
     <body>
 
-
 <!-- heure -->
-        <time class="aiguille" id="heure">00:00:00</time>
+      <div class="groupe" id="groupe-heure">
+
+        <time class="aiguille" id="heure"></time>
         <time class="aiguille ombre" id="heure-ombre"></time>
         <time class="temps" id="heure-txt">00:00:00</time>
 
+      </div>
 <!-- min -->
-        <time class="aiguille" id="min">00:00:00</time>
+      <div class="groupe" id="groupe-min">
+        <time class="aiguille" id="min"></time>
         <time class="aiguille ombre" id="min-ombre"></time>
         <time class="temps" id="min-txt">00:00:00</time>
-
+      </div>
 <!-- sec -->
-        <time class="aiguille" id="sec">00:00:00</time>
-        <time class="aiguille ombre" id="sec-ombre"></time>
+      <div class="groupe" id="groupe-sec">
+
+        <div class="groupe-aiguille">
+          <time class="aiguille" id="sec"></time>
+          <time class="aiguille ombre" id="sec-ombre"></time>
+        </div>
+
         <time class="temps" id="sec-txt">00:00:00</time>
 
+      </div>
 
     </body>
 </html>
